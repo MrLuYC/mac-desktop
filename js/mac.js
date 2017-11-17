@@ -10,12 +10,12 @@ window.Mac = {
   _iframeOnClick: {
 
   },
-  
+
   _init: function () {
-    
+
   }
 };
 
-$(document).ready(function () {
+$(document).ready(function(){
   Mac._init();
 });
