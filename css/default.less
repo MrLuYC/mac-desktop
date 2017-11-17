@@ -1,0 +1,87 @@
+* {
+  padding: 0 auto;
+  margin: 0 auto;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+#mac{
+  width: 100%;
+  height: 100%;
+  background: url("../images/ElCapitan.jpg") no-repeat fixed;
+  background-size: 100% 100%;
+  position: relative;
+
+  * {
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+  }
+
+  #mac-topmenu {
+    background-color: rgba(231, 231, 231, 0.8);
+    height: 36px;
+    line-height: 36px;
+  }
+
+  #mac-topmenu {
+    ul {
+      list-style: none;
+      li {
+        float: left;
+        margin-left: 8px;
+        margin-right: 8px;
+      }
+      a {
+        color: black;
+        text-decoration: none;
+        font-size: 17px;
+      }
+    }
+  }
+
+  #mac-dock-bar {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    height: 64px;
+  }
+
+  #mac-dock-bar {
+    #mac-dock {
+
+      height: 64px;
+      line-height: 64px;
+
+      background-color: rgba(226, 226, 226, 0.42);
+      border-top-left-radius: 8px;
+      border-top-right-radius: 8px;
+      display: inline-block;
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+
+    #mac-dock {
+
+      .dock-icon {
+
+        display: inline-block;
+        margin: 4px;
+
+        img {
+          width: 56px;
+          height: 56px;
+        }
+      }
+
+    }
+  }
+}
