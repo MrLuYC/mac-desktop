@@ -15,7 +15,7 @@ Vue.component('mac-window',{
 new Vue({
   el: '#mac',
   data: {
-    date: '00:00:00',
+    dateStr: '00:00:00',
     winList: [
       {
         title: 'Safari',
@@ -39,7 +39,7 @@ new Vue({
       var h = (date.getHours().toString().length > 1) ? date.getHours() : '0' + date.getHours();
       var m = (date.getMinutes().toString().length > 1) ? date.getMinutes() : '0' + date.getMinutes();
       var s = (date.getSeconds().toString().length > 1) ? date.getSeconds() : '0' + date.getSeconds();
-      this.date = h + ':' + m + ':' + s;
+      this.dateStr = h + ':' + m + ':' + s;
     });
   },
   methods: {
