@@ -25,6 +25,10 @@ body {
     user-select:none;
   }
 
+  .desktop {
+    height: 100%;
+  }
+
   #mac-topmenu {
     background-color: rgba(231, 231, 231, 0.8);
     height: 36px;
@@ -45,6 +49,19 @@ body {
         font-size: 17px;
       }
     }
+
+    .left-menu {
+      float: left;
+    }
+
+    .right-menu {
+      float: right;
+    }
+
+  }
+
+  #mac-scene {
+    height:  calc(~"100% - 36px");
   }
 
   #mac-dock-bar {
@@ -72,9 +89,24 @@ body {
     #mac-dock {
 
       .dock-icon {
+        -webkit-transition: linear 0.15s;
+        -moz-transition: linear 0.15s;
+        -ms-transition: linear 0.15s;
+        -o-transition: linear 0.15s;
+        transition: linear 0.15s;
 
         display: inline-block;
         margin: 4px;
+      }
+
+      .dock-icon:hover {
+        /*动画的方向*/
+        transform-origin: center bottom;
+        /*设置动画效果*/
+        transform: scale(1.3);
+      }
+
+      .dock-icon {
 
         img {
           width: 56px;

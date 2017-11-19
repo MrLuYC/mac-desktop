@@ -1,0 +1,105 @@
+@winBShadowC: rgba(0, 0, 0, 0.33);
+@winBorderC: rgba(215, 214, 216, 1.0);
+@winBorderRadius: 8px;
+
+body {
+  text-align: center;
+}
+
+.mac-window {
+  border-radius: @winBorderRadius;
+  box-shadow: 0 10px 20px @winBShadowC;
+  width: 400px;
+  height: 300px;
+  border: 1px solid @winBorderC;
+  display: inline-block;
+  background-color: white;
+  position: absolute;
+  margin: 0;
+
+  .mac-window-header {
+
+    background: -webkit-linear-gradient(left top, rgb(231, 229, 231) , rgb(217, 215, 217)); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(bottom right, rgb(231, 229, 231) , rgb(217, 215, 217)); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(bottom right, rgb(231, 229, 231) , rgb(217, 215, 217)); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to bottom right, rgb(231, 229, 231) , rgb(217, 215, 217)); /* 标准的语法 */
+
+    border-top-left-radius: @winBorderRadius;
+    border-top-right-radius: @winBorderRadius;
+    height: 29px;
+    text-align: left;
+
+    border-bottom: 1px solid #b2b2b2;
+  }
+
+  .mac-window-header {
+
+    .mac-widnow-header-btns {
+      height: 29px;
+      line-height: 29px;
+      margin-left: 8px;
+      display: inline-block;
+    }
+
+    .mac-widnow-header-btns {
+      .header-btn {
+        width: 18px;
+        height: 18px;
+        border-radius: 9px;
+        border: none;
+        outline-style: none;
+      }
+
+      .header-btn-close {
+        background-color: rgb(254, 95, 93);
+      }
+
+      .header-btn-close:hover {
+        background-color: rgba(254, 95, 93, 0.5);
+      }
+
+      .header-btn-min {
+        background-color: rgb(253, 183, 62);
+      }
+
+      .header-btn-min:hover {
+        background-color: rgba(253, 183, 62, 0.5);
+      }
+
+      .header-btn-max {
+        background-color: rgb(49, 195, 72);
+      }
+
+      .header-btn-max:hover {
+        background-color: rgba(49, 195, 72, 0.5);
+      }
+
+      .header-btn-disable {
+        background-color: rgb(211, 211, 211);
+      }
+    }
+
+    .mac-window-header-title {
+      text-align: center;
+      display: inline-block;
+      width: 100% - 30px;
+    }
+
+    .mac-window-header-title {
+      a {
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+      }
+    }
+
+  }
+
+  .mac-window-content {
+    background-color: white;
+    width: 100%;
+    height:  calc(~"100% - 30px");
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+}

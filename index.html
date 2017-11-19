@@ -5,15 +5,7 @@
     <title>Mac</title>
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
     <link href="css/default.css" rel="stylesheet">
-    <style>
-        #fuck {
-            width: 200px;
-            height: 200px;
-            position: fixed;
-            z-index: 100;
-            display: inline-block;
-        }
-    </style>
+    <link rel="stylesheet" href="css/mac.css">
 </head>
 <body>
 
@@ -23,19 +15,19 @@
 
             <!--mac的顶部菜单-->
             <div id="mac-topmenu">
-                <ul>
+                <ul class="left-menu">
                     <li><a href="#" class="fa fa-apple"></a></li>
                     <li><a href="#">Finder</a></li>
                     <li><a href="#">文件</a></li>
                 </ul>
+                <ul class="right-menu">
+                    <li><a href="#">15:00</a></li>
+                    <li><a href="#" class="fa fa-align-left"></a></li>
+                </ul>
             </div>
 
-            <div id="fuck">
-
-            </div>
-
-            <div id="mac-scene">
-
+            <div id="mac-scene" @mouseup="mouseup" @mousemove="mousemove">
+                <mac-window v-for="item in winList" v-bind:item="item"></mac-window>
             </div>
             <div id="mac-dock-bar">
                 <div id="mac-dock">
@@ -46,15 +38,29 @@
                         <img src="images/Safari.png" alt="Safari">
                     </div>
                     <div class="dock-icon">
+                        <img src="images/AppStore.png" alt="AppStore">
+                    </div>
+                    <div class="dock-icon">
+                        <img src="images/iBooks.png" alt="Calculator">
+                    </div>
+                    <div class="dock-icon">
+                        <img src="images/GameCenter.png" alt="Calculator">
+                    </div>
+                    <div class="dock-icon">
                         <img src="images/Calculator.png" alt="Calculator">
+                    </div>
+                    <div class="dock-icon">
+                        <img src="images/SystemPreferences.png" alt="Calculator">
+                    </div>
+                    <div class="dock-icon">
+                        <img src="images/trashempty.png" alt="Calculator">
                     </div>
                 </div>
             </div>
         </div>
 
     </div>
-
-    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/vue/dist/vue.min.js"></script>
     <script src="js/mac.js"></script>
 
 </body>
