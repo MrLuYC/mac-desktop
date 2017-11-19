@@ -35,10 +35,10 @@ new Vue({
   },
   mounted: function () {
     setInterval(() => {
-      var date = new Date();
-      var h = (date.getHours().toString().length > 1) ? date.getHours() : '0' + date.getHours();
-      var m = (date.getMinutes().toString().length > 1) ? date.getMinutes() : '0' + date.getMinutes();
-      var s = (date.getSeconds().toString().length > 1) ? date.getSeconds() : '0' + date.getSeconds();
+      // var date = new Date();
+      // var h = (date.getHours().toString().length > 1) ? date.getHours() : '0' + date.getHours();
+      // var m = (date.getMinutes().toString().length > 1) ? date.getMinutes() : '0' + date.getMinutes();
+      // var s = (date.getSeconds().toString().length > 1) ? date.getSeconds() : '0' + date.getSeconds();
       this.dateStr = h + ':' + m + ':' + s;
     });
   },
