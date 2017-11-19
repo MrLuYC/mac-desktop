@@ -2,210 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86a06ef1-3468-4620-bc24-ae554a744831" name="Default" comment="添加窗体">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/AppStore.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/GameCenter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/SystemPreferences.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/iBooks.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/trashempty.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/mac.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.recently_updates.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_font-awesome@4.7.0@font-awesome/less/font-awesome.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_font-awesome@4.7.0@font-awesome/less/mixins.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_font-awesome@4.7.0@font-awesome/less/variables.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/.npminstall.done" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/dist/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/dist/vue.common.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/dist/vue.esm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/dist/vue.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/dist/vue.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/dist/vue.runtime.common.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/dist/vue.runtime.esm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/dist/vue.runtime.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/dist/vue.runtime.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/compiler/codegen/events.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/compiler/codegen/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/compiler/create-compiler.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/compiler/directives/bind.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/compiler/directives/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/compiler/directives/model.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/compiler/directives/on.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/compiler/error-detector.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/compiler/helpers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/compiler/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/compiler/optimizer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/compiler/parser/entity-decoder.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/compiler/parser/filter-parser.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/compiler/parser/html-parser.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/compiler/parser/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/compiler/parser/text-parser.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/compiler/to-function.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/core/components/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/core/components/keep-alive.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/core/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/core/global-api/assets.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/core/global-api/extend.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/core/global-api/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/core/global-api/mixin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/core/global-api/use.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/core/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/core/instance/events.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/core/instance/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/core/instance/init.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/core/instance/inject.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/core/instance/lifecycle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/core/instance/proxy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/core/instance/render-helpers/bind-object-listeners.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/core/instance/render-helpers/bind-object-props.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/core/instance/render-helpers/check-keycodes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/core/instance/render-helpers/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/core/instance/render-helpers/render-list.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/core/instance/render-helpers/render-slot.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/core/instance/render-helpers/render-static.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/core/instance/render-helpers/resolve-filter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/core/instance/render-helpers/resolve-slots.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/core/instance/render.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/core/instance/state.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/core/observer/array.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/core/observer/dep.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/core/observer/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/core/observer/scheduler.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/core/observer/traverse.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/core/observer/watcher.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/core/util/debug.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/core/util/env.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/core/util/error.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/core/util/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/core/util/lang.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/core/util/next-tick.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/core/util/options.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/core/util/perf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/core/util/props.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/core/vdom/create-component.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/core/vdom/create-element.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/core/vdom/create-functional-component.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/core/vdom/helpers/extract-props.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/core/vdom/helpers/get-first-component-child.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/core/vdom/helpers/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/core/vdom/helpers/is-async-placeholder.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/core/vdom/helpers/merge-hook.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/core/vdom/helpers/normalize-children.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/core/vdom/helpers/resolve-async-component.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/core/vdom/helpers/update-listeners.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/core/vdom/modules/directives.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/core/vdom/modules/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/core/vdom/modules/ref.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/core/vdom/patch.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/core/vdom/vnode.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/platforms/web/compiler/directives/html.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/platforms/web/compiler/directives/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/platforms/web/compiler/directives/model.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/platforms/web/compiler/directives/text.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/platforms/web/compiler/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/platforms/web/compiler/modules/class.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/platforms/web/compiler/modules/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/platforms/web/compiler/modules/model.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/platforms/web/compiler/modules/style.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/platforms/web/compiler/options.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/platforms/web/compiler/util.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/platforms/web/entry-compiler.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/platforms/web/entry-runtime-with-compiler.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/platforms/web/entry-runtime.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/platforms/web/entry-server-basic-renderer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/platforms/web/entry-server-renderer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/platforms/web/runtime/class-util.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/platforms/web/runtime/components/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/platforms/web/runtime/components/transition-group.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/platforms/web/runtime/components/transition.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/platforms/web/runtime/directives/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/platforms/web/runtime/directives/model.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/platforms/web/runtime/directives/show.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/platforms/web/runtime/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/platforms/web/runtime/modules/attrs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/platforms/web/runtime/modules/class.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/platforms/web/runtime/modules/dom-props.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/platforms/web/runtime/modules/events.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/platforms/web/runtime/modules/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/platforms/web/runtime/modules/style.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/platforms/web/runtime/modules/transition.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/platforms/web/runtime/node-ops.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/platforms/web/runtime/patch.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/platforms/web/runtime/transition-util.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/platforms/web/server/compiler.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/platforms/web/server/directives/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/platforms/web/server/directives/model.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/platforms/web/server/directives/show.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/platforms/web/server/modules/attrs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/platforms/web/server/modules/class.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/platforms/web/server/modules/dom-props.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/platforms/web/server/modules/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/platforms/web/server/modules/style.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/platforms/web/server/util.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/platforms/web/util/attrs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/platforms/web/util/class.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/platforms/web/util/compat.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/platforms/web/util/element.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/platforms/web/util/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/platforms/web/util/style.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/platforms/weex/compiler/directives/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/platforms/weex/compiler/directives/model.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/platforms/weex/compiler/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/platforms/weex/compiler/modules/append.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/platforms/weex/compiler/modules/class.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/platforms/weex/compiler/modules/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/platforms/weex/compiler/modules/props.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/platforms/weex/compiler/modules/style.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/platforms/weex/entry-compiler.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/platforms/weex/entry-framework.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/platforms/weex/entry-runtime-factory.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/platforms/weex/runtime/components/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/platforms/weex/runtime/components/richtext.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/platforms/weex/runtime/components/transition-group.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/platforms/weex/runtime/components/transition.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/platforms/weex/runtime/directives/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/platforms/weex/runtime/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/platforms/weex/runtime/modules/attrs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/platforms/weex/runtime/modules/class.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/platforms/weex/runtime/modules/events.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/platforms/weex/runtime/modules/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/platforms/weex/runtime/modules/style.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/platforms/weex/runtime/modules/transition.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/platforms/weex/runtime/node-ops.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/platforms/weex/runtime/patch.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/platforms/weex/runtime/text-node.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/platforms/weex/util/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/server/bundle-renderer/create-bundle-renderer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/server/bundle-renderer/create-bundle-runner.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/server/bundle-renderer/source-map-support.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/server/create-basic-renderer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/server/create-renderer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/server/optimizing-compiler/codegen.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/server/optimizing-compiler/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/server/optimizing-compiler/modules.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/server/optimizing-compiler/optimizer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/server/optimizing-compiler/runtime-helpers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/server/render-context.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/server/render-stream.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/server/render.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/server/template-renderer/create-async-file-mapper.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/server/template-renderer/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/server/template-renderer/parse-template.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/server/template-renderer/template-stream.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/server/util.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/server/webpack-plugin/client.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/server/webpack-plugin/server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/server/webpack-plugin/util.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/server/write.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/sfc/parser.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/shared/constants.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/src/shared/util.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/types/index.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/types/options.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/types/plugin.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/types/vnode.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/_vue@2.5.6@vue/types/vue.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue/dist/vue.common.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -258,7 +55,7 @@
       <file leaf-file-name="default.less" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/default.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
+            <state relative-caret-position="-119">
               <caret line="93" column="37" lean-forward="true" selection-start-line="93" selection-start-column="37" selection-end-line="93" selection-end-column="37" />
               <folding />
             </state>
@@ -410,20 +207,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Mac桌面" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mac桌面" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mac桌面" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -623,7 +406,7 @@
       <workItem from="1511075114958" duration="60000" />
       <workItem from="1511075491362" duration="6622000" />
       <workItem from="1511089823927" duration="1000" />
-      <workItem from="1511095432743" duration="5311000" />
+      <workItem from="1511095432743" duration="5390000" />
     </task>
     <task id="LOCAL-00001" summary="压缩了背景图片">
       <created>1510917705310</created>
@@ -681,11 +464,18 @@
       <option name="project" value="LOCAL" />
       <updated>1511100407987</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="添加窗体">
+      <created>1511100759725</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1511100759725</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59966000" />
+    <option name="totallyTimeSpent" value="60045000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -951,7 +741,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/default.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
+        <state relative-caret-position="-119">
           <caret line="93" column="37" lean-forward="true" selection-start-line="93" selection-start-column="37" selection-end-line="93" selection-end-column="37" />
           <folding />
         </state>
