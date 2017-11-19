@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="86a06ef1-3468-4620-bc24-ae554a744831" name="Default" comment="添加窗体">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/font-awesome/less/font-awesome.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/font-awesome/less/mixins.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/font-awesome/less/variables.css" />
+    <list default="true" id="86a06ef1-3468-4620-bc24-ae554a744831" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -349,7 +346,7 @@
       <workItem from="1511075114958" duration="60000" />
       <workItem from="1511075491362" duration="6622000" />
       <workItem from="1511089823927" duration="1000" />
-      <workItem from="1511095432743" duration="5983000" />
+      <workItem from="1511095432743" duration="5991000" />
     </task>
     <task id="LOCAL-00001" summary="压缩了背景图片">
       <created>1510917705310</created>
@@ -442,11 +439,18 @@
       <option name="project" value="LOCAL" />
       <updated>1511101406348</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="添加窗体">
+      <created>1511101454475</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1511101454475</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60638000" />
+    <option name="totallyTimeSpent" value="60646000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
