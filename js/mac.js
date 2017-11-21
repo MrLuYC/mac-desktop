@@ -2,11 +2,19 @@
  * Created by 卢耀川 on 2017/11/17.
  */
 
+const store = new Vuex.Store({
+
+});
+
+
+
 Vue.component('mac-window',{
   template: '<div class="mac-window" v-bind:style="item.style" v-on:mousedown="mousedown"> <div class="mac-window-header"> <div class="mac-widnow-header-btns"> <button class="header-btn header-btn-close"></button> <button class="header-btn header-btn-min"></button> <button class="header-btn header-btn-max"></button> </div> <div class="mac-window-header-title"> <a href="#">{{ item.title }}</a> </div> </div> </div>',
   props: ['item'],
   methods:{
     mousedown: function (e) {
+      this.item.offsetX = e.clientX;
+      this.item.offsetY = e.clientY;
       this.item.selected = true;
     }
   }
@@ -14,6 +22,7 @@ Vue.component('mac-window',{
 
 new Vue({
   el: '#mac',
+  store,
   data: {
     dateStr: '00:00:00',
     winList: [
@@ -45,27 +54,30 @@ new Vue({
   methods: {
 
     mousemove: function (e) {
+      console.log(e.clientX);
 
-      // var list = this.winList;
+      var list = this.winList;
 
-      // for (i = 0 ; i < list.length; i ++) {
-      //   if (list[i].selected) {
-      //     list[i].offsetX = e.pageX - list[i].offsetX;
-      //     list[i].offsetY = e.pageY - list[i].offsetY;
-      //     list[i].style.top = list[i].offsetY + 'px';
-      //     list[i].style.left = list[i].offsetX + 'px';
-      //   }
-      // }
+      for (i = 0 ; i < list.length; i ++) {
+        if (list[i].selected) {
+          list[i].offsetX = e.clientX - list[i].w / 2;
+          list[i].offsetY = e.clientY;
+          list[i].style.top = list[i].offsetY + 'px';
+          list[i].style.left = list[i].offsetX + 'px';
+        }
+      }
     },
 
     mouseup: function (e) {
-      // var list = this.winList;
-      //
-      // for (i = 0 ; i < list.length; i ++) {
-      //   if (list[i].selected) {
-      //     list[i].selected = false;
-      //   }
-      // }
-    }
+      var list = this.winList;
+
+      for (i = 0 ; i < list.length; i ++) {
+        if (list[i].selected) {
+          list[i].selected = false;
+        }
+      }
+    },
+
+
   }
 });

@@ -9,7 +9,7 @@ body {
   border: 1px solid #d7d6d8;
   display: inline-block;
   background-color: white;
-  position: absolute;
+  position: fixed;
   margin: 0;
 }
 .mac-window .mac-window-header {
