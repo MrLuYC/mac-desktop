@@ -157,6 +157,6 @@ function openSafari() {
       x: $('#mac-scene').width() / 2 - 450,
       y: $('#mac-scene').height() / 2 - 250
     },
-    content: '<iframe src="https://www.baidu.com" style="width: 99%; height: 99%"></iframe>>'
+    content: '<iframe src="https://www.baidu.com" style="width: 99%; height: 99%; border: none;"></iframe>>'
   });
 }
