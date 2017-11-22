@@ -82,14 +82,16 @@ body {
     .mac-window-header-title {
       text-align: center;
       display: inline-block;
-      width: 100% - 30px;
+      width: calc(~"100% - 82px");
     }
 
     .mac-window-header-title {
-      a {
+      span {
         color: black;
         text-decoration: none;
         font-weight: bold;
+        white-space: nowrap;
+        text-overflow: ellipsis;
       }
     }
 

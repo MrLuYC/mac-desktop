@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="components/font-awesome/css/font-awesome.min.css">
     <link href="css/default.css" rel="stylesheet">
     <link rel="stylesheet" href="css/mac.css">
+    <script src="components/jquery/dist/jquery.min.js"></script>
 </head>
 <body>
 
@@ -21,20 +22,46 @@
                     <li><a href="#">文件</a></li>
                 </ul>
                 <ul class="right-menu">
-                    <li><a href="#">{{ dateStr }}</a></li>
+                    <li><a href="#" id="date">
+                        <!--获取当前时间并显示出来-->
+                        <script>
+                          let date = new Date();
+                          let h = (date.getHours().toString().length > 1) ? date.getHours() : '0' + date.getHours();
+                          let m = (date.getMinutes().toString().length > 1) ? date.getMinutes() : '0' + date.getMinutes();
+                          let s = (date.getSeconds().toString().length > 1) ? date.getSeconds() : '0' + date.getSeconds();
+                          $('#mac-topmenu').find('#date').text(h + ':' + m + ':' + s);
+                        </script>
+                    </a></li>
                     <li><a href="#" class="fa fa-align-left"></a></li>
                 </ul>
             </div>
+            <!--工作区-->
+            <div id="mac-scene">
+                <template id="window-template">
+                    <div class="mac-window">
+                        <div class="mac-window-header">
+                            <div class="mac-widnow-header-btns">
+                                <button class="header-btn header-btn-close"></button>
+                                <button class="header-btn header-btn-min"></button>
+                                <button class="header-btn header-btn-max"></button>
+                            </div>
+                            <div class="mac-window-header-title">
+                                <span>标题</span>
+                            </div>
+                        </div>
+                        <div class="mac-window-content">
 
-            <div id="mac-scene" @mouseup="mouseup" @mousemove="mousemove">
-                <mac-window v-for="item in winList" v-bind:item="item"></mac-window>
+                        </div>
+                    </div>
+                </template>
             </div>
+            <!--dock栏-->
             <div id="mac-dock-bar">
                 <div id="mac-dock">
                     <div class="dock-icon">
                         <img src="images/Launchpad.png" alt="Launchpad">
                     </div>
-                    <div class="dock-icon">
+                    <div class="dock-icon" id="safari">
                         <img src="images/Safari.png" alt="Safari">
                     </div>
                     <div class="dock-icon">
@@ -60,8 +87,6 @@
         </div>
 
     </div>
-    <script src="components/vue/dist/vue.min.js"></script>
-    <script src="components/vuex/dist/vuex.min.js"></script>
     <script src="js/mac.js"></script>
 
 </body>
