@@ -2,201 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86a06ef1-3468-4620-bc24-ae554a744831" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/dist/vue.common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/dist/vue.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/dist/vue.runtime.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/compiler/codegen/events.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/compiler/codegen/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/compiler/create-compiler.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/compiler/directives/bind.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/compiler/directives/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/compiler/directives/model.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/compiler/directives/on.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/compiler/error-detector.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/compiler/helpers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/compiler/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/compiler/optimizer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/compiler/parser/entity-decoder.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/compiler/parser/filter-parser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/compiler/parser/html-parser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/compiler/parser/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/compiler/parser/text-parser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/compiler/to-function.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/core/components/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/core/components/keep-alive.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/core/config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/core/global-api/assets.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/core/global-api/extend.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/core/global-api/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/core/global-api/mixin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/core/global-api/use.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/core/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/core/instance/events.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/core/instance/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/core/instance/init.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/core/instance/inject.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/core/instance/lifecycle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/core/instance/proxy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/core/instance/render-helpers/bind-object-listeners.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/core/instance/render-helpers/bind-object-props.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/core/instance/render-helpers/check-keycodes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/core/instance/render-helpers/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/core/instance/render-helpers/render-list.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/core/instance/render-helpers/render-slot.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/core/instance/render-helpers/render-static.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/core/instance/render-helpers/resolve-filter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/core/instance/render-helpers/resolve-slots.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/core/instance/render.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/core/instance/state.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/core/observer/array.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/core/observer/dep.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/core/observer/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/core/observer/scheduler.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/core/observer/traverse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/core/observer/watcher.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/core/util/debug.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/core/util/env.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/core/util/error.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/core/util/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/core/util/lang.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/core/util/next-tick.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/core/util/options.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/core/util/perf.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/core/util/props.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/core/vdom/create-component.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/core/vdom/create-element.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/core/vdom/create-functional-component.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/core/vdom/helpers/extract-props.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/core/vdom/helpers/get-first-component-child.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/core/vdom/helpers/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/core/vdom/helpers/is-async-placeholder.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/core/vdom/helpers/merge-hook.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/core/vdom/helpers/normalize-children.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/core/vdom/helpers/resolve-async-component.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/core/vdom/helpers/update-listeners.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/core/vdom/modules/directives.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/core/vdom/modules/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/core/vdom/modules/ref.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/core/vdom/patch.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/core/vdom/vnode.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/platforms/web/compiler/directives/html.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/platforms/web/compiler/directives/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/platforms/web/compiler/directives/model.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/platforms/web/compiler/directives/text.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/platforms/web/compiler/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/platforms/web/compiler/modules/class.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/platforms/web/compiler/modules/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/platforms/web/compiler/modules/model.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/platforms/web/compiler/modules/style.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/platforms/web/compiler/options.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/platforms/web/compiler/util.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/platforms/web/entry-compiler.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/platforms/web/entry-runtime-with-compiler.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/platforms/web/entry-runtime.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/platforms/web/entry-server-basic-renderer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/platforms/web/entry-server-renderer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/platforms/web/runtime/class-util.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/platforms/web/runtime/components/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/platforms/web/runtime/components/transition-group.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/platforms/web/runtime/components/transition.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/platforms/web/runtime/directives/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/platforms/web/runtime/directives/model.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/platforms/web/runtime/directives/show.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/platforms/web/runtime/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/platforms/web/runtime/modules/attrs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/platforms/web/runtime/modules/class.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/platforms/web/runtime/modules/dom-props.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/platforms/web/runtime/modules/events.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/platforms/web/runtime/modules/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/platforms/web/runtime/modules/style.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/platforms/web/runtime/modules/transition.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/platforms/web/runtime/node-ops.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/platforms/web/runtime/patch.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/platforms/web/runtime/transition-util.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/platforms/web/server/compiler.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/platforms/web/server/directives/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/platforms/web/server/directives/model.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/platforms/web/server/directives/show.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/platforms/web/server/modules/attrs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/platforms/web/server/modules/class.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/platforms/web/server/modules/dom-props.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/platforms/web/server/modules/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/platforms/web/server/modules/style.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/platforms/web/server/util.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/platforms/web/util/attrs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/platforms/web/util/class.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/platforms/web/util/compat.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/platforms/web/util/element.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/platforms/web/util/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/platforms/web/util/style.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/platforms/weex/compiler/directives/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/platforms/weex/compiler/directives/model.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/platforms/weex/compiler/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/platforms/weex/compiler/modules/append.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/platforms/weex/compiler/modules/class.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/platforms/weex/compiler/modules/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/platforms/weex/compiler/modules/props.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/platforms/weex/compiler/modules/style.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/platforms/weex/entry-compiler.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/platforms/weex/entry-framework.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/platforms/weex/entry-runtime-factory.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/platforms/weex/runtime/components/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/platforms/weex/runtime/components/richtext.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/platforms/weex/runtime/components/transition-group.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/platforms/weex/runtime/components/transition.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/platforms/weex/runtime/directives/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/platforms/weex/runtime/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/platforms/weex/runtime/modules/attrs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/platforms/weex/runtime/modules/class.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/platforms/weex/runtime/modules/events.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/platforms/weex/runtime/modules/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/platforms/weex/runtime/modules/style.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/platforms/weex/runtime/modules/transition.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/platforms/weex/runtime/node-ops.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/platforms/weex/runtime/patch.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/platforms/weex/runtime/text-node.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/platforms/weex/util/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/server/bundle-renderer/create-bundle-renderer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/server/bundle-renderer/create-bundle-runner.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/server/bundle-renderer/source-map-support.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/server/create-basic-renderer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/server/create-renderer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/server/optimizing-compiler/codegen.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/server/optimizing-compiler/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/server/optimizing-compiler/modules.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/server/optimizing-compiler/optimizer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/server/optimizing-compiler/runtime-helpers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/server/render-context.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/server/render-stream.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/server/render.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/server/template-renderer/create-async-file-mapper.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/server/template-renderer/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/server/template-renderer/parse-template.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/server/template-renderer/template-stream.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/server/util.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/server/webpack-plugin/client.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/server/webpack-plugin/server.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/server/webpack-plugin/util.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/server/write.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/sfc/parser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/shared/constants.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/src/shared/util.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/types/index.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/types/options.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/types/plugin.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/types/vnode.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/vue/types/vue.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/dist/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/dist/vue.esm.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/dist/vue.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/dist/vue.runtime.common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/dist/vue.runtime.esm.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/dist/vue.runtime.js" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/osx.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/default.less" afterPath="$PROJECT_DIR$/css/default.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/mac.js" afterPath="$PROJECT_DIR$/js/mac.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/mac.css" afterPath="$PROJECT_DIR$/css/window.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/mac.less" afterPath="$PROJECT_DIR$/css/window.less" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -208,27 +22,23 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="51" column="54" lean-forward="false" selection-start-line="51" selection-start-column="36" selection-end-line="51" selection-end-column="54" />
-              <folding>
-                <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#script#0;n#a#0;n#li#0;n#ul#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
+            <state relative-caret-position="-577">
+              <caret line="43" column="85" lean-forward="true" selection-start-line="43" selection-start-column="85" selection-end-line="43" selection-end-column="85" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mac.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/mac.less">
+      <file leaf-file-name="window.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/window.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2200">
-              <caret line="88" column="10" lean-forward="false" selection-start-line="88" selection-start-column="10" selection-end-line="88" selection-end-column="10" />
+            <state relative-caret-position="593">
+              <caret line="103" column="22" lean-forward="false" selection-start-line="103" selection-start-column="22" selection-end-line="103" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -237,28 +47,29 @@
       <file leaf-file-name="default.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/default.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="93" column="37" lean-forward="false" selection-start-line="93" selection-start-column="37" selection-end-line="93" selection-end-column="37" />
+            <state relative-caret-position="567">
+              <caret line="114" column="9" lean-forward="false" selection-start-line="114" selection-start-column="9" selection-end-line="114" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mac.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mac.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/mac.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="679">
-              <caret line="159" column="95" lean-forward="false" selection-start-line="159" selection-start-column="95" selection-end-line="159" selection-end-column="95" />
-              <folding>
-                <marker date="1511356809344" expanded="true" signature="966:1036" ph="{...}" />
-                <marker date="1511356809344" expanded="true" signature="1115:1209" ph="{...}" />
-                <marker date="1511356809344" expanded="true" signature="1525:1630" ph="{...}" />
-                <marker date="1511356809344" expanded="true" signature="2041:2119" ph="{...}" />
-                <marker date="1511356809344" expanded="true" signature="2257:2310" ph="{...}" />
-                <marker date="1511356809344" expanded="true" signature="2385:2972" ph="{...}" />
-                <marker date="1511356809344" expanded="true" signature="3016:3129" ph="{...}" />
-                <marker date="1511356809344" expanded="true" signature="3432:3470" ph="..." />
-              </folding>
+            <state relative-caret-position="286">
+              <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="14" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="osx.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/osx.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="552">
+              <caret line="327" column="21" lean-forward="false" selection-start-line="327" selection-start-column="21" selection-end-line="327" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -271,9 +82,9 @@
         <option value="CSS File" />
         <option value="SCSS File" />
         <option value="Less File" />
-        <option value="JavaScript File" />
         <option value="TypeScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -281,11 +92,32 @@
     <findStrings>
       <find>layui-</find>
       <find>layer-ico</find>
-      <find>open</find>
       <find>close</find>
       <find>layui-layer-setwin</find>
       <find>win1</find>
+      <find>open</find>
+      <find>mou</find>
+      <find>window.os</find>
+      <find>window.osx</find>
+      <find>osx.opt</find>
+      <find>console.log</find>
+      <find>openwin</find>
+      <find>currWin</find>
+      <find>currTarget</find>
+      <find>osxWin.css</find>
+      <find>selectW</find>
+      <find>WinInfo.target</find>
+      <find>osx.winInfo</find>
     </findStrings>
+    <replaceStrings>
+      <replace>osx</replace>
+      <replace>winInfo</replace>
+      <replace>osxWin</replace>
+      <replace>osxWin.target</replace>
+      <replace>osxWin.target.css</replace>
+      <replace>WinInfo.window</replace>
+      <replace>osx.WinInfo</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -299,7 +131,6 @@
         <option value="$PROJECT_DIR$/css/index.css" />
         <option value="$PROJECT_DIR$/css/index.less" />
         <option value="$PROJECT_DIR$/css/default.css" />
-        <option value="$PROJECT_DIR$/js/osx.js" />
         <option value="$PROJECT_DIR$/layer/theme/macWinLayer.js" />
         <option value="$PROJECT_DIR$/css/macwindow.less" />
         <option value="$PROJECT_DIR$/layer/theme/default/layer.css" />
@@ -308,7 +139,6 @@
         <option value="$PROJECT_DIR$/layer/layer.js" />
         <option value="$PROJECT_DIR$/layer/maclayer.js" />
         <option value="$PROJECT_DIR$/test1.html" />
-        <option value="$PROJECT_DIR$/css/default.less" />
         <option value="$PROJECT_DIR$/js/MacLayer.js" />
         <option value="$PROJECT_DIR$/js/j.js" />
         <option value="$PROJECT_DIR$/js/MacLayer.ts" />
@@ -316,8 +146,11 @@
         <option value="G:/迅雷下载/layer-v3.1.0/layer/layer.js" />
         <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/css/mac.less" />
-        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/window.less" />
         <option value="$PROJECT_DIR$/js/mac.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/default.less" />
+        <option value="$PROJECT_DIR$/js/osx.js" />
       </list>
     </option>
   </component>
@@ -327,11 +160,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="550" />
+    <option name="y" value="194" />
+    <option name="width" value="1144" />
+    <option name="height" value="732" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -377,64 +210,29 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mac桌面" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mac桌面" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mac桌面" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mac桌面" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mac桌面" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mac桌面" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mac桌面" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mac桌面" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="Mac桌面" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mac桌面" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Mac桌面" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mac桌面" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Mac桌面" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mac桌面" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -443,8 +241,8 @@
     <property name="list.type.of.created.stylesheet" value="Less" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="settings.editor.selected.configurable" value="settings.typescriptcompiler" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/web期末作品" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -469,6 +267,14 @@
     </option>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
@@ -504,15 +310,6 @@
       <option name="cucumberJsArguments" value="" />
       <option name="executablePath" />
       <option name="filePath" />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -571,7 +368,19 @@
       <workItem from="1511235849274" duration="4371000" />
       <workItem from="1511241980429" duration="6923000" />
       <workItem from="1511274199648" duration="2135000" />
-      <workItem from="1511343626687" duration="10530000" />
+      <workItem from="1511343626687" duration="11014000" />
+      <workItem from="1511409055668" duration="47000" />
+      <workItem from="1511444977878" duration="119000" />
+      <workItem from="1511445873902" duration="131000" />
+      <workItem from="1511446093318" duration="56000" />
+      <workItem from="1511446180420" duration="41000" />
+      <workItem from="1511446258983" duration="346000" />
+      <workItem from="1511447054703" duration="3975000" />
+      <workItem from="1511497686611" duration="3228000" />
+      <workItem from="1511502858965" duration="1089000" />
+      <workItem from="1511505054986" duration="8562000" />
+      <workItem from="1511621740052" duration="1902000" />
+      <workItem from="1511677631271" duration="13516000" />
     </task>
     <task id="LOCAL-00001" summary="压缩了背景图片">
       <created>1510917705310</created>
@@ -769,18 +578,32 @@
       <option name="project" value="LOCAL" />
       <updated>1511356777454</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="窗口可以正常拖动，但还是有些bug">
+      <created>1511356853407</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1511356853407</updated>
+    </task>
+    <task id="LOCAL-00030" summary="窗口可以正常拖动，但还是有些bug">
+      <created>1511356857168</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1511356857168</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86619000" />
+    <option name="totallyTimeSpent" value="120115000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19114584" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.190625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -820,7 +643,7 @@
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="processedProjectFiles" value="true" />
+    <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -843,28 +666,8 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="800">
-          <caret line="32" column="60" lean-forward="false" selection-start-line="32" selection-start-column="60" selection-end-line="32" selection-end-column="60" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#script#0;n#a#0;n#li#0;n#ul#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/default.css" />
-    <entry file="file://$PROJECT_DIR$/images/Chrome.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
           <caret line="32" column="60" lean-forward="true" selection-start-line="32" selection-start-column="60" selection-end-line="32" selection-end-column="60" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#script#0;n#a#0;n#li#0;n#ul#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -878,10 +681,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1350">
           <caret line="54" column="64" lean-forward="false" selection-start-line="54" selection-start-column="64" selection-end-line="54" selection-end-column="64" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#script#0;n#a#0;n#li#0;n#ul#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -890,10 +690,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1350">
           <caret line="54" column="64" lean-forward="false" selection-start-line="54" selection-start-column="64" selection-end-line="54" selection-end-column="64" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#script#0;n#a#0;n#li#0;n#ul#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -907,20 +704,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#script#0;n#a#0;n#li#0;n#ul#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../06-宠物网/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2874">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../06-宠物网/css/index.css" />
     <entry file="file://$PROJECT_DIR$/imgs/main.html" />
     <entry file="file://$PROJECT_DIR$/css/index.scss" />
     <entry file="file://$PROJECT_DIR$/images/ElCapitan.png" />
@@ -974,55 +762,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/.recently_updates.txt" />
     <entry file="file://$PROJECT_DIR$/test.html" />
-    <entry file="file://G:/迅雷下载/layer-v3.1.0/layer/layer.js">
+    <entry file="file://G:/迅雷下载/layer-v3.1.0/layer/layer.js" />
+    <entry file="file://$USER_HOME$/Downloads/layer-master/src/layer.js" />
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="35" column="46" lean-forward="false" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
+        <state relative-caret-position="-577">
+          <caret line="43" column="85" lean-forward="true" selection-start-line="43" selection-start-column="85" selection-end-line="43" selection-end-column="85" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/window.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="593">
+          <caret line="103" column="22" lean-forward="false" selection-start-line="103" selection-start-column="22" selection-end-line="103" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/default.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="93" column="37" lean-forward="false" selection-start-line="93" selection-start-column="37" selection-end-line="93" selection-end-column="37" />
+        <state relative-caret-position="567">
+          <caret line="114" column="9" lean-forward="false" selection-start-line="114" selection-start-column="9" selection-end-line="114" selection-end-column="9" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/mac.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2200">
-          <caret line="88" column="10" lean-forward="false" selection-start-line="88" selection-start-column="10" selection-end-line="88" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="51" column="54" lean-forward="false" selection-start-line="51" selection-start-column="36" selection-end-line="51" selection-end-column="54" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#script#0;n#a#0;n#li#0;n#ul#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/mac.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="679">
-          <caret line="159" column="95" lean-forward="false" selection-start-line="159" selection-start-column="95" selection-end-line="159" selection-end-column="95" />
-          <folding>
-            <marker date="1511356809344" expanded="true" signature="966:1036" ph="{...}" />
-            <marker date="1511356809344" expanded="true" signature="1115:1209" ph="{...}" />
-            <marker date="1511356809344" expanded="true" signature="1525:1630" ph="{...}" />
-            <marker date="1511356809344" expanded="true" signature="2041:2119" ph="{...}" />
-            <marker date="1511356809344" expanded="true" signature="2257:2310" ph="{...}" />
-            <marker date="1511356809344" expanded="true" signature="2385:2972" ph="{...}" />
-            <marker date="1511356809344" expanded="true" signature="3016:3129" ph="{...}" />
-            <marker date="1511356809344" expanded="true" signature="3432:3470" ph="..." />
-          </folding>
+        <state relative-caret-position="286">
+          <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="14" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/jquery/src/css.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-331">
+          <caret line="283" column="2" lean-forward="false" selection-start-line="283" selection-start-column="2" selection-end-line="283" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/osx.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="327" column="21" lean-forward="false" selection-start-line="327" selection-start-column="21" selection-end-line="327" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
