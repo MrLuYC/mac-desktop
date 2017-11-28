@@ -285,16 +285,22 @@ window.osx = {
     if (winInfo.window !== null) {
       switch (winInfo.direction) {
         case Direction.topRight:
-          this.topRightScale();
+          this.topRightScale(event);
           break;
         case Direction.topLeft:
-          this.topLeftScale();
+          this.topLeftScale(event);
+          break;
+        case Direction.downLeft:
+          this.downLeftScale(event);
+          break;
+        case Direction.downRight:
+          this.downRightScale(event);
           break;
       }
     }
   },
 
-  topRightScale: function () {
+  topRightScale: function (event) {
     let window = osx.WinInfo.window;
 
     let winX = window.getPositionX();
@@ -307,63 +313,123 @@ window.osx = {
     let height = 0;
     let top = 0;  //  移动时因为底部的位置不变，需要计算窗口的Y的位置
 
-    if (winY - event.clientY > 0) {
-      maxY = winY + winH;
+    if ((winX + winW) - event.clientX > 0) {
       width = winW + (event.clientX - (winX + winW));
+    } else {
+      width = winW - ((winX + winW) - event.clientX);
+    }
+
+    if (winY - event.clientY > 0) {
       height = winH + (winY - event.clientY);
       top = maxY - height;
 
     } else {
-      maxY = winY + winH;
-      width = winW + (event.clientX - (winX + winW));
       height = winH - (event.clientY - winY);
       top = maxY - height;
     }
-    console.log('maxY:' + maxY + ',height:' + height);
 
     if (top > 36) {
       window.setPositionY(top);
     }
 
-    if (width > 301.2 && height > 300) {
+    if (width > 300 && height > 300) {
       window.setWidth(width);
       window.setHeight(height);
     }
   },
 
-  topLeftScale: function () {
+  topLeftScale: function (event) {
     let window = osx.WinInfo.window;
     let winX = window.getPositionX();
     let winY = window.getPositionY();
     let winW = window.getWidth();
     let winH = window.getHeight();
 
-    let maxX = 0;
-    let maxY = 0;
+    let maxX = window.getMaxX();
+    let maxY = window.getMaxY();
     let width = 0;
     let height = 0;
     let top = 0;  //  移动时因为底部的位置不变，需要计算窗口的Y的位置
     let left = 0;
 
-    if (winY - event.clientY > 0 || winX - event.clientX > 0) {
-      maxX = winX + winW;
-      maxY = winY + winH;
-      width = winW + (winX - event.clientX);
+    if (winY - event.clientY > 0) {
       height = winH + (winY - event.clientY);
-      left = maxX - width;
-      top = maxY - height;
     } else {
-      maxX = winX + winW;
-      maxY = winY + winH;
-      width = winW - (event.clientX - winX);
       height = winH - (event.clientY - winY);
-      left = maxX - width;
-      top = maxY - height;
     }
+
+    if (winX - event.clientX > 0) {
+      width = winW + (winX - event.clientX);
+    } else {
+      width = winW - (event.clientX - winX);
+    }
+
+    left = maxX - width;
+    top = maxY - height;
     if (top > 36) {
-      window.setPositionX(top);
-      window.setPositionY(left);
+      window.setPositionX(left);
+      window.setPositionY(top);
     }
+    if (width > 300 && height > 300) {
+      window.setWidth(width);
+      window.setHeight(height);
+    }
+  },
+
+  downLeftScale: function (event) {
+    let window = osx.WinInfo.window;
+    let winX = window.getPositionX();
+    let winY = window.getPositionY();
+    let winW = window.getWidth();
+    let winH = window.getHeight();
+
+    let maxX = window.getMaxX();
+    let width = 0;
+    let height = 0;
+    let left = 0;
+
+    if (winX - event.clientX > 0) {
+      width = winW + (winX - event.clientX);
+    } else {
+      width = winW - (event.clientX - winX);
+    }
+
+    if ((winY + winH) - event.clientY > 0) {
+      height = winH - ((winY + winH) - event.clientY);
+    } else {
+      height = winH + (event.clientY - (winY + winH));
+    }
+    left = maxX - width;
+    window.setPositionX(left);
+
+    if (width > 300 && height > 300) {
+      window.setWidth(width);
+      window.setHeight(height);
+    }
+  },
+
+  downRightScale: function (event) {
+    let window = osx.WinInfo.window;
+    let winX = window.getPositionX();
+    let winY = window.getPositionY();
+    let winW = window.getWidth();
+    let winH = window.getHeight();
+
+    let width = 0;
+    let height = 0;
+
+    if ((winX + winW) - event.clientX > 0) {
+      width = winW + (event.clientX - (winX + winW));
+    } else {
+      width = winW - ((winX + winW) - event.clientX);
+    }
+
+    if ((winY + winH) - event.clientY > 0) {
+      height = winH - ((winY + winH) - event.clientY);
+    } else {
+      height = winH + (event.clientY - (winY + winH));
+    }
+
     if (width > 300 && height > 300) {
       window.setWidth(width);
       window.setHeight(height);
