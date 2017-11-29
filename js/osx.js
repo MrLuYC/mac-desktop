@@ -160,6 +160,7 @@ window.osx = {
   init: function () {
     this.dateTime();
     $('#safari').click(this.openSafari);
+    $('#calculator').click(this.openCalculator);
     let macScene = $('#mac-scene');
     macScene.mousemove(this.mouseMove);
     macScene.mouseup(this.unselectWindow);
@@ -542,9 +543,72 @@ window.osx = {
       }
       // content: '<iframe src="https://www.hao123.com" style="width: 99%; height: 99%; border: none;"></iframe>>'
     });
+  },
+
+  openCalculator: function () {
+
+    let content = '<div class="app-calculator">\n' +
+      '\n' +
+      '      <!--输入框部分-->\n' +
+      '      <div class="calculator-input">\n' +
+      '        <input type="text">\n' +
+      '      </div>\n' +
+      '\n' +
+      '      <div class="calculator-buttons">\n' +
+      '\n' +
+      '        <div>\n' +
+      '          <button class="button-w-h button-style-normal button-style1">mrc</button>\n' +
+      '          <button class="button-w-h button-style-normal button-style1">m-</button>\n' +
+      '          <button class="button-w-h button-style-normal button-style1">m+</button>\n' +
+      '          <button class="button-w-h button-style-normal button-style2" onclick="osx.calculator.operaing(4)">÷</button>\n' +
+      '        </div>\n' +
+      '\n' +
+      '        <div>\n' +
+      '          <button class="button-w-h button-style-normal button-style3" onclick="osx.calculator.inputNumber(7)">7</button>\n' +
+      '          <button class="button-w-h button-style-normal button-style3" onclick="osx.calculator.inputNumber(8)">8</button>\n' +
+      '          <button class="button-w-h button-style-normal button-style3" onclick="osx.calculator.inputNumber(9)">9</button>\n' +
+      '          <button class="button-w-h button-style-normal button-style2" onclick="osx.calculator.operaing(3)">×</button>\n' +
+      '        </div>\n' +
+      '\n' +
+      '        <div>\n' +
+      '          <button class="button-w-h button-style-normal button-style3" onclick="osx.calculator.inputNumber(4)">4</button>\n' +
+      '          <button class="button-w-h button-style-normal button-style3" onclick="osx.calculator.inputNumber(5)">5</button>\n' +
+      '          <button class="button-w-h button-style-normal button-style3" onclick="osx.calculator.inputNumber(6)">6</button>\n' +
+      '          <button class="button-w-h button-style-normal button-style2" onclick="osx.calculator.operaing(2)">-</button>\n' +
+      '        </div>\n' +
+      '\n' +
+      '        <div>\n' +
+      '          <button class="button-w-h button-style-normal button-style3" onclick="osx.calculator.inputNumber(1)">1</button>\n' +
+      '          <button class="button-w-h button-style-normal button-style3" onclick="osx.calculator.inputNumber(2)">2</button>\n' +
+      '          <button class="button-w-h button-style-normal button-style3" onclick="osx.calculator.inputNumber(3)">3</button>\n' +
+      '          <button class="button-w-h button-style-normal button-style2" onclick="osx.calculator.operaing(1)">+</button>\n' +
+      '        </div>\n' +
+      '\n' +
+      '        <div>\n' +
+      '          <button class="button-w-h button-style-normal button-style3" onclick="osx.calculator.inputNumber(0)">0</button>\n' +
+      '          <button class="button-w-h button-style-normal button-style3" onclick="osx.calculator.point()">.</button>\n' +
+      '          <button class="button-w-h button-style-normal button-style3" onclick="osx.calculator.zero()">C</button>\n' +
+      '          <button class="button-w-h button-style-normal button-style4" onclick="osx.calculator.compute()">=</button>\n' +
+      '        </div>\n' +
+      '\n' +
+      '      </div>\n' +
+      '\n' +
+      '    </div>' +
+      '<script>window.osx.calculator.init()</script>';
+
+
+    let scene = $('#mac-scene');
+    osx.openWindow({
+      title: 'Calculator',
+      size: {
+        width: 260,
+        height: 332
+      },
+      positions: {
+        x: scene.width() / 2 - 450,
+        y: scene.height() / 2 - 250
+      },
+      content: content
+    });
   }
 };
-
-$(document).ready(function () {
-  osx.init();
-});
