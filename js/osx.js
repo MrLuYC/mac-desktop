@@ -612,3 +612,7 @@ window.osx = {
     });
   }
 };
+
+$(document).ready(function () {
+  window.osx.init();
+});

@@ -5,15 +5,16 @@ function Calculator() {
   this.isPoint = false;
   
   this.init = function () {
-    let input = $('#app-calculator input');
+    let input = $('.app-calculator input');
     //  把输入框的显示设为0
     input.val(0)
     //  禁止用户直接输入数字
     input.attr('readOnly', 'readonly');
+    console.log('gg');
   };
   
   this.inputNumber = function (value) {
-    let input = $('#app-calculator input');
+    let input = $('.app-calculator input');
 
     let inputNumber = null;
 
@@ -37,7 +38,7 @@ function Calculator() {
   };
 
   this.operaing = function(op) {
-    let input = $('#app-calculator input');
+    let input = $('.app-calculator input');
     let inputNumber = parseFloat(input.val());
 
     osx.calculator.number = inputNumber;
@@ -48,12 +49,12 @@ function Calculator() {
 
   this.compute = function() {
 
-    let input = $('#app-calculator input');
+    let input = $('.app-calculator input');
     let inputNumber = parseFloat(input.val());
 
     switch (osx.calculator.operator) {
       case 1:
-        osx.calculator.preResult = number + inputNumber;
+        osx.calculator.preResult = osx.calculator.number + inputNumber;
         input.val(osx.calculator.preResult);
         break;
       case 2:
@@ -78,7 +79,7 @@ function Calculator() {
    * 归零
    */
   this.zero = function() {
-    let input = $('#app-calculator input');
+    let input = $('.app-calculator input');
     input.val(0);
     osx.calculator.number = 0;
     osx.calculator.preResult = 0;
@@ -91,7 +92,7 @@ function Calculator() {
   this.point = function() {
 
     if (!osx.calculator.isPoint) {
-      let input = $('#app-calculator input');
+      let input = $('.app-calculator input');
       let inputNumber = parseFloat(input.val());
 
       input.val('' + inputNumber + '.');

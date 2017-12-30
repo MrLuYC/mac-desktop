@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86a06ef1-3468-4620-bc24-ae554a744831" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jsq.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/app.less" afterPath="$PROJECT_DIR$/css/app.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jsq.js" afterPath="$PROJECT_DIR$/js/jsq.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/osx.js" afterPath="$PROJECT_DIR$/js/osx.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -20,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2031">
-              <caret line="103" column="0" lean-forward="true" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+            <state relative-caret-position="26">
+              <caret line="27" column="32" lean-forward="false" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -70,11 +68,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="osx.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="osx.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/osx.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="597" column="0" lean-forward="true" selection-start-line="597" selection-start-column="0" selection-end-line="597" selection-end-column="0" />
+            <state relative-caret-position="14274">
+              <caret line="549" column="45" lean-forward="false" selection-start-line="549" selection-start-column="31" selection-end-line="549" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -83,8 +81,8 @@
       <file leaf-file-name="jsq.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/jsq.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="801">
-              <caret line="103" column="41" lean-forward="true" selection-start-line="103" selection-start-column="41" selection-end-line="103" selection-end-column="41" />
+            <state relative-caret-position="1456">
+              <caret line="56" column="50" lean-forward="false" selection-start-line="56" selection-start-column="50" selection-end-line="56" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -137,6 +135,8 @@
       <find>downleft</find>
       <find>conso</find>
       <find>fuck</find>
+      <find>osx.calculator</find>
+      <find>ready</find>
     </findStrings>
     <replaceStrings>
       <replace>osx</replace>
@@ -146,6 +146,7 @@
       <replace>osxWin.target.css</replace>
       <replace>WinInfo.window</replace>
       <replace>osx.WinInfo</replace>
+      <replace>calculator</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -183,9 +184,9 @@
         <option value="$PROJECT_DIR$/css/window.css" />
         <option value="$PROJECT_DIR$/css/app.less" />
         <option value="$PROJECT_DIR$/css/app.css" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/osx.js" />
         <option value="$PROJECT_DIR$/js/jsq.js" />
-        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -196,8 +197,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="357" />
-    <option name="y" value="139" />
+    <option name="x" value="118" />
+    <option name="y" value="103" />
     <option name="width" value="1144" />
     <option name="height" value="732" />
   </component>
@@ -245,8 +246,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -286,6 +285,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -295,7 +296,7 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Less" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="F:/Code/HTML5/博客" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -439,7 +440,11 @@
       <workItem from="1511876279351" duration="2386000" />
       <workItem from="1511878695528" duration="3059000" />
       <workItem from="1511960429297" duration="3834000" />
-      <workItem from="1511964307829" duration="211000" />
+      <workItem from="1511964307829" duration="1378000" />
+      <workItem from="1511967906150" duration="83000" />
+      <workItem from="1512185567674" duration="32000" />
+      <workItem from="1514473166072" duration="184000" />
+      <workItem from="1514624587040" duration="42000" />
     </task>
     <task id="LOCAL-00001" summary="压缩了背景图片">
       <created>1510917705310</created>
@@ -665,11 +670,18 @@
       <option name="project" value="LOCAL" />
       <updated>1511881724733</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="完成了窗口左上角右上角左下角右下角的拖动缩放">
+      <created>1511964526369</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1511964526369</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134151000" />
+    <option name="totallyTimeSpent" value="135659000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -845,26 +857,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/osx.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14274">
+          <caret line="549" column="45" lean-forward="false" selection-start-line="549" selection-start-column="31" selection-end-line="549" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/jsq.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="801">
-          <caret line="103" column="41" lean-forward="true" selection-start-line="103" selection-start-column="41" selection-end-line="103" selection-end-column="41" />
+        <state relative-caret-position="1456">
+          <caret line="56" column="50" lean-forward="false" selection-start-line="56" selection-start-column="50" selection-end-line="56" selection-end-column="50" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2031">
-          <caret line="103" column="0" lean-forward="true" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/osx.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="597" column="0" lean-forward="true" selection-start-line="597" selection-start-column="0" selection-end-line="597" selection-end-column="0" />
+        <state relative-caret-position="26">
+          <caret line="27" column="32" lean-forward="false" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
           <folding />
         </state>
       </provider>

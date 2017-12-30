@@ -1,0 +1,87 @@
+.app-safari {
+  text-align: left;
+  width: 100%;
+  height: 100%;
+}
+.app-safari .safari-header {
+  width: 100%;
+  height: 20px;
+  line-height: 20px;
+}
+.app-safari .safari-header .address {
+  width: 500px;
+  height: 20px;
+  border: 1px solid #bfbfbf;
+}
+.app-safari .safari-header .address + button {
+  background-color: white;
+  border: none;
+}
+.app-safari .safari-content {
+  width: 100%;
+  height: calc(100% - 25px);
+}
+.app-safari .safari-content iframe {
+  width: 100%;
+  height: 100%;
+}
+.app-calculator {
+  background-color: #3e4442;
+  display: inline-block;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #3e4442;
+}
+.app-calculator .calculator-input {
+  width: 226px;
+  height: 54px;
+  margin-top: 19px;
+  margin-left: 17px;
+  margin-right: 17px;
+  margin-bottom: 17px;
+}
+.app-calculator .calculator-input input {
+  width: 100%;
+  height: 100%;
+  background-color: #d1e4a4;
+  border: 3px solid #232323;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #232323;
+  text-align: right;
+  font-size: 44px;
+}
+.app-calculator .calculator-buttons {
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-bottom: 12px;
+}
+.app-calculator .button-w-h {
+  width: 43px;
+  height: 30px;
+}
+.app-calculator .button-style-normal {
+  color: white;
+  border: 1.5px solid #232323;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px #232323;
+  margin: 5px;
+  font-size: 18px;
+}
+.app-calculator .button-style-normal:focus {
+  outline: none;
+}
+.app-calculator .button-style-normal:hover {
+  background-color: bisque;
+  color: black;
+}
+.app-calculator .button-style1 {
+  background-color: #676767;
+}
+.app-calculator .button-style2 {
+  background-color: #ff4f69;
+}
+.app-calculator .button-style3 {
+  background-color: #272727;
+}
+.app-calculator .button-style4 {
+  background-color: #fcb229;
+}
