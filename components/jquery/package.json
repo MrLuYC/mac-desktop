@@ -95,5 +95,5 @@
     "ticketPattern": "^((Closes|Fixes) ([a-zA-Z]{2,}-)[0-9]+)|^(Refs? [^#])"
   },
   "_from": "jquery@3.2.1",
-  "_resolved": "http://registry.npm.taobao.org/jquery/download/jquery-3.2.1.tgz"
+  "_resolved": "https://registry.npmmirror.com/jquery/download/jquery-3.2.1.tgz"
 }
